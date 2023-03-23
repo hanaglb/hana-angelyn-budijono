@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello_world():
-  return "<p>Hana Angelyn B</p>"
+  return "<p>Nama : Hana Angelyn Budijono</p><p>Tempat,Tanggal lahir : Malang, 1 Agustus 2004</p><p>Alamat : Perumahan banjar arum asri singosari, Malang </p><p> Jenis kelamin : Perempuan </p><p> Agama : Kristen </p><p>"
 
 
 if __name__ == '__main__':
